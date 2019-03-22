@@ -4,7 +4,7 @@ project(cryptoauth)
 # Various Options for Build
 option(ATCA_HAL_KIT_HID "Include the HID HAL Driver")
 option(ATCA_HAL_I2C "Include the I2C Hal Driver - Linux & MCU only")
-option(ATCA_HAL_CUSTOM "Include support for Custom/Plug-in Hal Driver")
+option(ATCA_HAL_CUSTOM "Include support for Custom/Plug-in Hal Driver" ON)
 option(ATCA_PRINTF "Enable Debug print statements in library")
 option(ATCA_PKCS11 "Build PKCS11 Library")
 option(ATCA_MBEDTLS "Integrate with mbedtls")
